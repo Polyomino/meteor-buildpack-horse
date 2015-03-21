@@ -7,4 +7,4 @@ echo "-----> Installing phantomjs."
 
 # Just extract the one file (the binary) and not all the examples/readme's/etc.
 FILE="phantomjs"
-curl -L -sS $PHANTOM_URL -o - | tar -jxf - -C $COMPILE_DIR $FILE
+curl -L -sS $PHANTOM_URL -o - | tar -jxf - -C $COMPILE_DIR/bin $FILE
